@@ -1,0 +1,44 @@
+
+/*hide Remove attachments button from docypes*/
+/*a.close {
+    display: none !important;
+}
+
+.close.btn-open-row {
+    display: block !important;
+}*/
+
+li.dropdown.dropdown-help.dropdown-mobile {
+    display: none !important;
+}
+.help-message-wrapper {
+    display: none!important;
+}
+
+a.module-link[data-name="Buying"],
+a.module-link[data-name="CRM"],
+a.module-link[data-name="Setup"],
+a.module-link[data-name="HR"],
+a.module-link[data-name="Learn"],
+a.module-link[data-name="Selling"],
+a.module-link[data-name="Stock"],
+a.module-link[data-name="Website"],
+a.module-link[data-name="Manufacturing"],
+a.module-link[data-name="Projects"], 
+a.module-link[data-name="Schools"], 
+a.module-link[data-name="Agriculture"], 
+a.module-link[data-name="Education"], 
+
+a.module-link[data-name="Developer"], 
+a.module-link[data-name="Healthcare"], 
+a.module-link[data-name="Non Profit"], 
+
+a.module-link[data-name="Assets"], 
+a.module-link[data-name="Accounts"], 
+a.module-link[data-name="Developer"], 
+a.module-link[data-name="Contacts"], 
+a.module-link[data-name="Support"], 
+a.module-link[data-name="Maintenance"], 
+a.module-link[data-name="Integrations"]{
+  display: None !important;
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zippy_cash *.css
+recursive-include zippy_cash *.csv
+recursive-include zippy_cash *.html
+recursive-include zippy_cash *.ico
+recursive-include zippy_cash *.js
+recursive-include zippy_cash *.json
+recursive-include zippy_cash *.md
+recursive-include zippy_cash *.png
+recursive-include zippy_cash *.py
+recursive-include zippy_cash *.svg
+recursive-include zippy_cash *.txt
+recursive-exclude zippy_cash *.pyc

@@ -1,0 +1,23 @@
+{
+ "content": null, 
+ "creation": "2019-07-17 08:40:21.395511", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "idx": 0, 
+ "modified": "2019-07-17 08:40:21.395511", 
+ "modified_by": "Administrator", 
+ "module": "Zippy Cash", 
+ "name": "deliver-cash", 
+ "owner": "Administrator", 
+ "page_name": "deliver-cash", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "system_page": 0, 
+ "title": "Deliver Cash"
+}

@@ -1,0 +1,185 @@
+body{
+
+}
+  .clientDetails{
+    padding: 10px 20px;
+    background: #fafafa;
+    margin: 0 0 20px 0;
+    border-radius: 4px;
+  }
+
+  .clientDetails label{
+    display: block;
+    margin: 7px 0px;
+    text-align: left;
+  }
+
+  .clientDetails label span{
+      font-weight: normal;
+  }
+
+  .heading{
+    margin: 10px 0px;
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .rateStatus{
+    padding: 20px 40px;
+    text-align: center;
+    background: #fafafa;
+    margin: 0;
+    border-radius: 4px;
+  }
+
+  .inline{
+      display: inline-flex;
+      width: 100%;
+  }
+
+
+  .rateStatus label{
+        color: #58585a;
+        font-weight: normal;
+   }
+
+   .rateStatus .rateDetails{
+        margin: 0px 10px;
+   }
+
+   .floatRight{
+        display: flex;
+        justify-content: flex-end;
+   }
+
+  .rate{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+        position: relative;
+        right: 0px;
+        left: 0px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+  }
+
+  .rate span{
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 16px;
+  }
+
+  .rate.All{
+      background: #58585a;
+  }
+
+  .rate.AwaitingClientResponse{
+      background: #43b8fc;
+  }
+  .rate.AwaitingContractCreation
+  {
+    background: #43b8fc;
+    }
+  .rate.ClientRequestedNegotiation{
+    background: #43b8fc;
+    }
+  .rate.RateFinalised,.RatesProvided{
+        background: #74ce31;
+   }
+
+   .rate.PendingVMAssignment{
+        background: #0bd276;
+    }
+
+   .rate.RejectedByClient{
+        background: #f73e2e;
+   }
+   .rate.RejectedByBD{
+    background: #f73e2e;
+}
+   .rate.RateRequested,.Draft{
+        background: #f47920;
+    }
+
+    .tableDetails table thead{
+        background: #58585a;
+    }
+
+    .tableDetails table thead th{
+        color: #ffffff;
+        padding: 10px;
+    }
+
+    .tableDetails table tr td{
+        padding: 10px;
+    }
+
+    .tableDetails table tr i{
+        font-size: 12px;
+        margin-right: 7px;
+    }
+
+    .tableDetails table tr .checkbox{
+        margin: 0;
+    }
+
+    .tableDetails table tr .checkbox input{
+        cursor: pointer;
+    }
+
+    .table > thead > tr > th{border-bottom: 0;text-transform: capitalize;}
+
+
+    .grey{color: #58585a}  /* total */
+    .orange{color: #f47920}  /* requested*/
+    .green{color: #74ce31}  /* final */
+    .red{color: #f73e2e}  /* rejected*/
+    .blue{color: #43b8fc}  /* awaiting */
+
+        .list{
+            margin: 15px 20px;
+        }
+   /* f47920 */
+
+   #action-buttons{
+        margin: 0;
+        padding: 20px;
+        float: right;
+        width: 100%;
+        align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
+        border-bottom: 1px solid #e0dcdc;
+        margin-bottom: 20px;
+   }
+
+   .defaultBtn{
+        background: #58585a;
+        color: #ffffff;
+        border-radius: 4px;
+        border: 1px solid #58585a;
+        padding: 7px 20px;
+        margin: 0px 0px 0px 20px;
+   }
+
+   .defaultBtn:hover{
+        background: #ffffff;
+        color: #58585a;
+        border-radius: 4px;
+        border: 1px solid #58585a;
+    }
+
+
+    table{
+        width: 95%;
+        margin-left:20px;
+    }
+
+    thead{
+        background: #f4f4f4;
+    }
+
+    td{
+        padding: 10px 0px 0px 0px;
+    }

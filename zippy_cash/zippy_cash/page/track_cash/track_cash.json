@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2019-07-17 22:08:42.439782",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2019-07-17 22:08:42.439782",
+ "modified_by": "Administrator",
+ "module": "Zippy Cash",
+ "name": "track-cash",
+ "owner": "Administrator",
+ "page_name": "track-cash",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Track Cash"
+}

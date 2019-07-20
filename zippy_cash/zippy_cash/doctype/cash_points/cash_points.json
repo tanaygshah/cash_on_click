@@ -1,0 +1,65 @@
+{
+ "autoname": "field:cash_point_name",
+ "creation": "2019-07-16 21:40:34.615770",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "cash_point_name",
+  "latitude",
+  "longitude",
+  "average_daily_capacity",
+  "owner"
+ ],
+ "fields": [
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Float",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Float",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "average_daily_capacity",
+   "fieldtype": "Int",
+   "label": "Average Daily Capacity"
+  },
+  {
+   "fieldname": "owner",
+   "fieldtype": "Link",
+   "label": "Owner",
+   "options": "User"
+  },
+  {
+   "fieldname": "cash_point_name",
+   "fieldtype": "Data",
+   "label": "Cash Point Name",
+   "unique": 1
+  }
+ ],
+ "modified": "2019-07-18 09:23:07.518118",
+ "modified_by": "Administrator",
+ "module": "Zippy Cash",
+ "name": "Cash Points",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
